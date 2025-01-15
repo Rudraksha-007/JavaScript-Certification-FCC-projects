@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 20px;
+    background-color:rgb(168, 228, 173);
+    color:white;
+    max-height: max-content;
+}
+.card{
+    background-color: aliceblue;
+    color:black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+#text-input{
+    border:0px;
+    border-bottom: 2px solid red;
+    border-radius: 6px;
+    padding: 4px;
+    outline: none;
+}
+#text-input:focus{
+    border:0px;
+    outline: none;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+}
+.title{
+    font-family: 'JetBrains Mono', monospace;
+    padding: 5px;
+    width: max-content;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#check-btn{
+    margin-top: 2%;   
+    padding: 0.5%;
+    border:0px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    font-family: 'JetBrains Mono', monospace;
+}
+#check-btn:hover{
+    margin-top: 2%;   
+    padding: 0.5%;
+    border:0px;
+    border-radius: 5px;
+    background-color: gray;
+    color:white;
+}
+#check-btn:active{
+    margin-top: 2%;   
+    padding: 0.5%;
+    border:0px;
+    border-radius: 5px;
+    background-color: azure;
+    color:black;
+}
+#result{
+    display: none;
+    margin-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,57 @@
+body{
+    background-color: #4635B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    width: max-content;
+    color:white;
+    border-radius: 10px;
+    size:inherit;
+}
+.box{
+    border: 1px solid white;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 5px;
+}
+#convert-btn{
+    margin-top: 3%;
+    background-color: #AEEA94;
+    border:0px;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: center;
+    font-family: JetBrains Mono;
+}
+#number{
+    background-color: aliceblue;
+    border:0px;
+    border-radius: 3px;
+    padding: 5px;
+}
+#number:focus{
+    border:none;
+    outline:none;
+}
+.title{
+    font-family: JetBrains Mono;
+}
+.instructions{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hidden{
+    display: none;
+}
+#output{
+    border: 1px;
+}

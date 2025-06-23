@@ -53,7 +53,6 @@ const convert=()=>{
         updateUI("invalidInp");
         return;
     }
-    let outstr=[];
     ref.forEach((arr)=>{
         while(x>=arr[1]){
             outstr.push(arr[0]);
